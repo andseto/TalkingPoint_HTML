@@ -15,3 +15,6 @@ https://postimg.cc/3022jwfY
 
 User Page:
 https://postimg.cc/0bqYkprQ
+
+Full Live Demo:
+https://talingpointdemo.netlify.app/
