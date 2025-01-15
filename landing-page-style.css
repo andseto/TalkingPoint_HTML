@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "SoDo Sans SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+.navbar
+{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:70px;
+    background-color:#1E201E;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 10;
+}
+
+.navbar img
+{
+    height: 70px;
+    margin-right: 200px;
+}
+
+.button-items
+{
+    display: flex;
+    gap: 10px;
+    margin-left: 1375px;
+}
+
+.sign-in,
+.join-now {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+    background-color: black;
+    color: white;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+}
+
+.join-now:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+.sign-in:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+.information-blocks .video-background
+{
+    width: 100%;
+    height: 636px;
+    margin-top: 70px;
+}
+
+.information-blocks .what-are-we
+{
+    width: 100%;
+    height: 400px;
+    background-color: #3C3D37;
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+}
+
+.what-are-we .left
+{
+    flex: 1;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 110px;
+}
+
+.what-are-we .left div
+{
+    margin-bottom: 15px;
+}
+
+.what-are-we .right
+{
+    flex: 1;
+}
+
+.what-are-we .right .icon-image
+{
+    width: 400px;
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+    padding-left: 250px;
+}
+
+.what-are-we .left a
+{
+    margin-bottom: 50px;
+}
+
+.information-blocks .space-holder
+{
+    width: 100%;
+    height: 400px;
+    background-color: #5e6d16;
+    position: relative;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
