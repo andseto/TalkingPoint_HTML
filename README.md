@@ -17,4 +17,4 @@ User Page:
 https://postimg.cc/0bqYkprQ
 
 Full Live Demo:
-https://talingpointdemo.netlify.app/
+https://talkingpointdemo.netlify.app
